@@ -13,7 +13,7 @@ import org.hibernate.criterion.Restrictions;
 
 //import java.sql.SQLException;
 //import java.sql.SQLIntegrityConstraintViolationException;
-//import java.util.Scanner;
+
 
 //import javax.persistence.PersistenceException;
 public class StoreData {
