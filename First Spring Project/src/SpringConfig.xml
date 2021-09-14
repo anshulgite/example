@@ -6,5 +6,8 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-	<bean id="restruntbean" class="anshul.Restruant"></bean>
+	<bean id="restruntbean" class="anshul.Restruant">
+	<property name="welnote" value="welcome to our restrunt!!!!." />
+	</bean>
+	
 </beans>

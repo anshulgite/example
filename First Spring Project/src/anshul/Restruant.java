@@ -1,9 +1,12 @@
 package anshul;
 
 public class Restruant {
-	
+	String welnote;
+	public void setWelnote(String welnote) {
+		this.welnote = welnote;
+	}
 	void greetCustomer()
 	{
-		System.out.println("welcome to our restrunt");
+		System.out.println(welnote);
 	}
 }
