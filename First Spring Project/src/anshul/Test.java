@@ -9,7 +9,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		ApplicationContext context=new ClassPathXmlApplicationContext("SpringConfig.xml");
 		Restruant restruntobj= (Restruant)context.getBean("restruntbean");
-		restruntobj.greetCustomer();
+		restruntobj.PrepairHotDrinks();
 	}
 
 }

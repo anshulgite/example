@@ -1,12 +1,28 @@
 package anshul;
 
 public class Restruant {
-	String welnote;
-	public void setWelnote(String welnote) {
-		this.welnote = welnote;
+	
+	HotDrinks hotdrinks;
+
+	
+	
+	public Restruant(HotDrinks hotdrinks) {
+		
+		this.hotdrinks = hotdrinks;
 	}
-	void greetCustomer()
-	{
-		System.out.println(welnote);
+
+
+
+	public void PrepairHotDrinks() {
+		hotdrinks.PrepairHotDrinks();
 	}
+	
+//	String welnote;
+//	public void setWelnote(String welnote) {
+//		this.welnote = welnote;
+//	}
+//	void greetCustomer()
+//	{
+//		System.out.println(welnote);
+//	}
 }
